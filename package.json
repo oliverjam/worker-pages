@@ -1,0 +1,19 @@
+{
+  "name": "worker-pages",
+  "type": "module",
+  "main": "dist/server.js",
+  "scripts": {
+    "build": "node build.js",
+    "start": "node dist/server.js"
+  },
+  "author": "Oliver Phillips <hello@oliverjam.es> (https://oliverjam.es/)",
+  "license": "MIT",
+  "devDependencies": {
+    "esbuild": "^0.13.3",
+    "fast-glob": "^3.2.7"
+  },
+  "dependencies": {
+    "itty-router": "^2.4.4",
+    "node-fetch": "^3.0.0"
+  }
+}
